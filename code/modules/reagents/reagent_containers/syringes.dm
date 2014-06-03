@@ -17,13 +17,6 @@
 	g_amt = 20
 	m_amt = 10
 
-/obj/item/weapon/reagent_containers/syringe/large
-	name = "large syringe"
-	desc = "A syringe that can hold up to 50 units."
-	volume = 50
-	g_amt = 50
-	m_amt = 40
-
 	on_reagent_change()
 		update_icon()
 
