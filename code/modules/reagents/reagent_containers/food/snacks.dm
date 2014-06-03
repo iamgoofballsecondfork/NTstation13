@@ -1047,6 +1047,7 @@
 	New()
 		..()
 		reagents.add_reagent("nutriment", 4)
+		reagents.add_reagent("silicon", rand(1,5))
 		bitesize = 2
 
 /obj/item/weapon/reagent_containers/food/snacks/no_raisin
@@ -1058,6 +1059,7 @@
 	New()
 		..()
 		reagents.add_reagent("nutriment", 6)
+		reagents.add_reagent("mercury", rand(1,5))
 
 /obj/item/weapon/reagent_containers/food/snacks/spacetwinkie
 	name = "space twinkie"
@@ -1067,6 +1069,7 @@
 	New()
 		..()
 		reagents.add_reagent("sugar", 4)
+		reagents.add_reagent("nitrogen", rand(1,5))
 		bitesize = 2
 
 /obj/item/weapon/reagent_containers/food/snacks/cheesiehonkers
@@ -1078,6 +1081,7 @@
 	New()
 		..()
 		reagents.add_reagent("nutriment", 4)
+		reagents.add_reagent("lithium", rand(1,5))
 		bitesize = 2
 
 /obj/item/weapon/reagent_containers/food/snacks/syndicake

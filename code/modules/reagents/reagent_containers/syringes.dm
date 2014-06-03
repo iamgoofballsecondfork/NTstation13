@@ -17,6 +17,13 @@
 	g_amt = 20
 	m_amt = 10
 
+/obj/item/weapon/reagent_containers/syringe/large
+	name = "large syringe"
+	desc = "A syringe that can hold up to 50 units."
+	volume = 50
+	g_amt = 50
+	m_amt = 40
+
 	on_reagent_change()
 		update_icon()
 
@@ -75,7 +82,7 @@
 						if(target != user)
 							target.visible_message("<span class='danger'>[user] is trying to take a blood sample from  [target]!</span>", \
 											"<span class='userdanger'>[user] is trying to take a blood sample from [target]!</span>")
-							if(!do_mob(user, target)) 
+							if(!do_mob(user, target))
 								return
 						B.holder = src
 						B.volume = amount

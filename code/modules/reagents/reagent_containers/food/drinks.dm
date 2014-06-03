@@ -183,6 +183,8 @@
 	New()
 		..()
 		reagents.add_reagent("coffee", 30)
+		reagents.add_reagent("sulfur", rand(1,5))
+		reagents.add_reagent("kelotane", rand(1,5))
 		src.pixel_x = rand(-10.0, 10)
 		src.pixel_y = rand(-10.0, 10)
 
@@ -215,6 +217,8 @@
 	New()
 		..()
 		reagents.add_reagent("hot_coco", 30)
+		reagents.add_reagent("sulfur", rand(1,5))
+		reagents.add_reagent("fuel", rand(1,5))
 		src.pixel_x = rand(-10.0, 10)
 		src.pixel_y = rand(-10.0, 10)
 
@@ -308,6 +312,7 @@
 	New()
 		..()
 		reagents.add_reagent("cola", 30)
+		reagents.add_reagent("carbon", rand(1,5))
 		src.pixel_x = rand(-10.0, 10)
 		src.pixel_y = rand(-10.0, 10)
 
@@ -325,7 +330,8 @@
 	icon_state = "sodawater"
 	New()
 		..()
-		reagents.add_reagent("sodawater", 50)
+		reagents.add_reagent("sodawater", 40)
+		reagents.add_reagent("hydrogen", 10)
 
 /obj/item/weapon/reagent_containers/food/drinks/soda_cans/lemon_lime
 	name = "Orange"
@@ -345,6 +351,8 @@
 	New()
 		..()
 		reagents.add_reagent("space_up", 30)
+		reagents.add_reagent("iron", rand(1,5))
+		reagents.add_reagent("aluminium", rand(1,5))
 		src.pixel_x = rand(-10.0, 10)
 		src.pixel_y = rand(-10.0, 10)
 
@@ -376,6 +384,7 @@
 	New()
 		..()
 		reagents.add_reagent("thirteenloko", 30)
+		reagents.add_reagent("ethanol", rand(1,5))
 		src.pixel_x = rand(-10.0, 10)
 		src.pixel_y = rand(-10.0, 10)
 
